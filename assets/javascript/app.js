@@ -7,9 +7,6 @@ var countStartNumber = 20;
 
 $(document).on('click', '#start-over', function(e) {
   game.reset();
-  var audio = new Audio('assets/audio/Jurassic.mp3');
-
-  audio.play();
 });
 
 $(document).on('click', '.answer-button', function(e) {
@@ -21,8 +18,8 @@ $(document).on('click', '#start', function(e) {
   game.loadQuestion();
 
   var audio = new Audio('assets/audio/Jurassic.mp3');
-
-  audio.play();
+    audio.loop = true;
+    audio.play();
 });
 
 
