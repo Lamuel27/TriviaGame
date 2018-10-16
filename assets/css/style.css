@@ -1,0 +1,88 @@
+html, body{
+    height:100%;
+  }
+  /* @font-face {  
+    src: url('fonts/african.ttf') format("truetype");
+  } */
+  /* @font-face { font-family: African; src: url('../fonts/african.ttf'); }  */
+  body{
+    /* background-color: url(assets/images/Jurassic.jpg); */
+    text-align: center;
+    background-size: cover;
+  
+  }
+  
+  #wrapper{
+    margin:2.5% auto;
+    background-color: rgb(210, 105, 30, 0.83);
+    width:960px;
+    height: 125%;
+    margin-bottom:0%;
+    box-sizing: border-box;
+  }
+  
+  #subwrapper{
+    position: relative;
+  }
+  button{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border:2px solid blue;
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+    background: grey;
+    margin-bottom: 15px;
+    /* background:transparent; */
+    font-size: 38px;
+    font-family: 'Bungee Inline', cursive;
+  }
+  
+  img{
+    height:285px;
+  }
+  
+  h1{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 6.5em;
+    font-weight: bold;
+    color:blue;
+    padding-top: 2.5%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  #start{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    margin-top: 10%;
+    border:2px solid blue;
+    background: grey;
+    font-family: 'Bungee Inline', cursive;}
+  
+  /* @font-face {
+    font-family: ;
+    src: url('../fonts/african.ttf');
+  } */
+  
+  
+  button:hover {
+    border:2px solid blue;
+    background: grey;
+  }
+  
