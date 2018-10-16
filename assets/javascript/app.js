@@ -76,7 +76,7 @@ var questions = [{
   image3:"assets/images/John-Hammond-Damn.gif"
 }, {
   question: "Who wrote Jurassic Park?",
-  answers: ["Steven Spielberg", "Steven King", "Michael Chrichton", "Michael Connelly"],
+  answers: ["Steven Spielberg", "Stephen King", "Michael Chrichton", "Michael Connelly"],
   correctAnswer: "Michael Chrichton",
   image:"assets/images/Clever-girl.gif",
   image2:"assets/images/Nedry.gif",
