@@ -39,7 +39,7 @@ html, body{
     background: grey;
     margin-bottom: 15px;
     /* background:transparent; */
-    font-size: 210%;
+    font-size: 155%;
     font-family: 'Bungee Inline', cursive;
   }
   
@@ -71,18 +71,28 @@ html, body{
     border-radius: 5px;
     -khtml-border-radius: 5px;
     margin-top: 10%;
-    border:2px solid blue;
-    background: grey;
-    font-family: 'Bungee Inline', cursive;}
+    /* border:2px solid blue; */
+    background: transparent;
+    font-family: 'Bungee Inline', cursive;
+    position: relative;
+    text-align: center;
+    /* color: white; */
+  }
   
   /* @font-face {
     font-family: ;
     src: url('../fonts/african.ttf');
   } */
   
-  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bungee Inline', cursive;
+}
   button:hover {
-    border:2px solid blue;
+    /* border:2px solid blue; */
     background: grey;
   }
   
