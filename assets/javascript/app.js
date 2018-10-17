@@ -167,9 +167,9 @@ var game = {
       panel.append('<img src="' + questions[game.currentQuestion].image2 + '" />');
   
       if (game.currentQuestion === questions.length - 1){
-        setTimeout(game.results, 3 * 1000);
+        setTimeout(game.results, 6 * 1000);
       } else {
-        setTimeout(game.nextQuestion, 3 * 1000);
+        setTimeout(game.nextQuestion, 6 * 1000);
       }
     },
     //pull gif if answered correctly
