@@ -127,9 +127,9 @@ var game = {
       panel.append('<img src="' + questions[this.currentQuestion].image3 + '" />');
   
       if (game.currentQuestion === questions.length - 1){
-        setTimeout(game.results, 3 * 1000);
+        setTimeout(game.results, 5 * 1000);
       } else {
-        setTimeout(game.nextQuestion, 3 * 1000);
+        setTimeout(game.nextQuestion, 5 * 1000);
       }
     },
     results: function() {
