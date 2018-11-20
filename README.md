@@ -1,5 +1,6 @@
 # TriviaGame
 JavaScript Assignment 2
+
 Link to the deployed site:
 https://lamuel27.github.io/TriviaGame/
 
